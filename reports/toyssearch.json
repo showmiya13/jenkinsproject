@@ -1,0 +1,487 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 108634212100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches phillipstoys application",
+            "match": {
+              "location": "addcartsteps.user_launches_phillipstoys_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3700077799,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the product in search box",
+            "match": {
+              "location": "addcartsteps.user_enter_the_product_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7923839300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the search button",
+            "match": {
+              "location": "addcartsteps.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T12:42:21.643Z",
+        "line": 10,
+        "name": "To add the product to add to cart page",
+        "description": "",
+        "id": "to-verify-the-addtocart-functionality-of-the;to-add-the-product-to-add-to-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12980559800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user add the product to add to cart",
+            "match": {
+              "location": "addcartsteps.user_add_the_product_to_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 443801700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user sees the add to cart page",
+            "match": {
+              "location": "addcartsteps.user_sees_the_add_to_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 28209763300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches phillipstoys application",
+            "match": {
+              "location": "addcartsteps.user_launches_phillipstoys_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3388873500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the product in search box",
+            "match": {
+              "location": "addcartsteps.user_enter_the_product_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10180294701,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the search button",
+            "match": {
+              "location": "addcartsteps.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T12:44:35.350Z",
+        "line": 15,
+        "name": "To increase the count of product in add to",
+        "description": "    cart page",
+        "id": "to-verify-the-addtocart-functionality-of-the;to-increase-the-count-of-product-in-add-to",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13950526400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user add the product to add to cart",
+            "match": {
+              "location": "addcartsteps.user_add_the_product_to_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6127109700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user increase the count in add to cart",
+            "match": {
+              "location": "addcartsteps.user_increase_the_count_in_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21082100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user sees the add to cart page with increase count",
+            "match": {
+              "location": "addcartsteps.user_sees_the_add_to_cart_page_with_increase_count()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the addtocart functionality of the",
+    "description": "  application",
+    "id": "to-verify-the-addtocart-functionality-of-the",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/addcart1.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 32298188100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches phillipstoys application",
+            "match": {
+              "location": "addcartsteps.user_launches_phillipstoys_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T12:45:37.247Z",
+        "line": 8,
+        "name": "To verify the search relevance for the search functionality",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-relevance-for-the-search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3431096700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the product in search box",
+            "match": {
+              "location": "addcartsteps.user_enter_the_product_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10733500100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click the search button",
+            "match": {
+              "location": "addcartsteps.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3087069000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user sees the results based on selected product",
+            "match": {
+              "location": "addcartsteps.user_sees_the_results_based_on_selected_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@full"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 61193755399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches phillipstoys application",
+            "match": {
+              "location": "addcartsteps.user_launches_phillipstoys_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T12:46:26.803Z",
+        "line": 21,
+        "name": "To verify the search using category option",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-using-category-option;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3518152801,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click the category \"Toys\" in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Toys\"",
+                  "offset": 24
+                }
+              ],
+              "location": "searchsteps.user_click_the_category_in_homepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11197483900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click the sub-category \"Comic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Comic\"",
+                  "offset": 28
+                }
+              ],
+              "location": "searchsteps.user_click_the_sub_category(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72595899,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees the results based on \"Toys\" and \"Comic\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Toys\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Comic\"",
+                  "offset": 42
+                }
+              ],
+              "location": "searchsteps.user_sees_the_results_based_on_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@full"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 62600414500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches phillipstoys application",
+            "match": {
+              "location": "addcartsteps.user_launches_phillipstoys_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T12:47:42.798Z",
+        "line": 22,
+        "name": "To verify the search using category option",
+        "description": "",
+        "id": "to-verify-the-search-functionality-of-the-application;to-verify-the-search-using-category-option;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3176487199,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click the category \"Brand\" in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brand\"",
+                  "offset": 24
+                }
+              ],
+              "location": "searchsteps.user_click_the_category_in_homepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13852421699,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click the sub-category \"Peter Rabbit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Peter Rabbit\"",
+                  "offset": 28
+                }
+              ],
+              "location": "searchsteps.user_click_the_sub_category(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64913600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees the results based on \"Brand\" and \"Peter Rabbit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brand\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Peter Rabbit\"",
+                  "offset": 43
+                }
+              ],
+              "location": "searchsteps.user_sees_the_results_based_on_and(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@full"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the search functionality of the application",
+    "description": "",
+    "id": "to-verify-the-search-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/search.feature",
+    "tags": [
+      {
+        "name": "@full",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

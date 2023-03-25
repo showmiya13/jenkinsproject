@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="400.847061">
+<testcase classname="To verify the addtocart functionality of the" name="To add the product to add to cart page" time="133.715889">
+<system-out><![CDATA[Given user launches phillipstoys application................................passed
+When user enter the product in search box...................................passed
+And user click the search button............................................passed
+When user add the product to add to cart....................................passed
+Then user sees the add to cart page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify the addtocart functionality of the" name="To increase the count of product in add to" time="61.883266">
+<system-out><![CDATA[Given user launches phillipstoys application................................passed
+When user enter the product in search box...................................passed
+And user click the search button............................................passed
+When user add the product to add to cart....................................passed
+And user increase the count in add to cart..................................passed
+Then user sees the add to cart page with increase count.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify the search functionality of the application" name="To verify the search relevance for the search functionality" time="49.558962">
+<system-out><![CDATA[Given user launches phillipstoys application................................passed
+When user enter the product in search box...................................passed
+And user click the search button............................................passed
+Then user sees the results based on selected product........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify the search functionality of the application" name="To verify the search using category option" time="75.991463">
+<system-out><![CDATA[Given user launches phillipstoys application................................passed
+When user click the category "Toys" in homepage.............................passed
+And user click the sub-category "Comic".....................................passed
+Then user sees the results based on "Toys" and "Comic"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To verify the search functionality of the application" name="To verify the search using category option 2" time="79.697481">
+<system-out><![CDATA[Given user launches phillipstoys application................................passed
+When user click the category "Brand" in homepage............................passed
+And user click the sub-category "Peter Rabbit"..............................passed
+Then user sees the results based on "Brand" and "Peter Rabbit"..............passed
+]]></system-out>
+</testcase>
+</testsuite>
